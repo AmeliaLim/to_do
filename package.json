@@ -1,0 +1,32 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "morgan": "^1.10.0",
+    "node-engine": "0.0.5",
+    "npm": "^7.6.3",
+    "pg": "^8.5.1",
+    "pg-promise": "^10.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "create_database": "createdb todo",
+    "create_tables": "psql -h localhost -d todo -f sql/create_tables.sql",
+    "seed_tables": "psql -h localhost -d todo -f sql/seed_tables.sql",
+    "start": "node -r dotenv/config index.js",
+    "dev": "nodemon -r dotenv/config -e js,ejs,css,sql,hbs,index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
