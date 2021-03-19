@@ -1,7 +1,10 @@
 ![license shield](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-# Aphy's Post-it Note to do list
-An alternative way of developing a to-do-list app that is focused on limiting user's tendency to list a ton of tasks that is for them unproductive, by introducing Post-it Notes. User will list the 5 most important goals for them for the week and check it off once it's done. 
+# Aphy's Post-it Note to do list :bookmark_tabs:	
+An alternative way of developing a to-do-list app that is focused on limiting user's tendency to list a ton of tasks that is for them unproductive, by introducing Post-it Notes. 
+
+## How it works
+User will list down the 5 most important goals for them for the week and check it off once it's done. 
 
 
 ## Motivation 
