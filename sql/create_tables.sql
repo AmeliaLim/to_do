@@ -6,3 +6,4 @@ id SERIAL PRIMARY KEY NOT NULL,
 task text UNIQUE,
 status INTEGER DEFAULT 0
 );
+s

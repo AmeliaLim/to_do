@@ -23,7 +23,7 @@ app.use("/", homeRouter);
 app.use((req, res) => {
     res.status(404).render("pages/error", {
       err: { message: "HTTP ERROR 404. This page does not exist" },
-      title: "Error | Aphy's Personal Diary",
+      title: "Error | Aphy's Limited Task",
     });
   });
   
