@@ -1,3 +1,71 @@
 * {
-    font-family: 'Syne Mono', monospace;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Syne Mono", monospace;
+  font-family: "Reenie Beanie", cursive;
+}
+
+body {
+  margin: 20px auto;
+  background: #666;
+  color: #fff;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: "Reenie Beanie";
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  li {
+    list-style: none;
+    margin: 1em;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    height: 10em;
+    width: 10em;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+    transform: rotate(-6deg);
+    transition: transform 0.15s linear;
+  }
+}
+
+ul li:nth-child(even) a {
+  position: relative;
+  top: 5px;
+  background: #cfc;
+}
+ul li:nth-child(3n) a {
+  position: relative;
+  top: -5px;
+  background: #ccf;
+}
+ul li:nth-child(5n) a {
+  transform: rotate(5deg);
+  position: relative;
+  top: -10px;
+}
+
+ul li a:hover,
+ul li a:focus {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.25);
+  position: relative;
+  z-index: 5;
 }
